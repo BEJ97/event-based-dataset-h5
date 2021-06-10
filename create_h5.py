@@ -77,6 +77,5 @@ def _add_all_files(fp, dir_path, dir_name, ext):
 
             group.create_dataset(f"{file.split('.')[0]}", data=events, compression=8)
 
-
-create_hdf5_dataset('n-cars_test.h5', 'D:\\bej19\\Documents\BEJ\研究生\研究生学习\数据集\\raw\\NCARS classifiaction Dataset\\NCARS classifiaction Dataset\\Prophesee_Dataset_n_cars\\n-cars_test','dat')
-# create_hdf5_dataset('cifar10-dvs.h5','D:\\bej19\\Documents\\BEJ\\研究生\\研究生学习\\数据集\\raw\\CIFAR10-DVS\\CIFAR10-DVS','aedat')
+# create_hdf5_dataset(dataset_name, file_or_dir, ext)
+# create_hdf5_dataset('cifar10-dvs.h5','D:/CIFAR10-DVS/CIFAR10-DVS','aedat')
