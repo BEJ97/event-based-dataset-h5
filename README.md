@@ -7,7 +7,8 @@
 *CIFAR10-DVS*
 ## Description
 
-This project using other people's work to create a h5 file from raw data of Event-based dataset.
+This project using other's work to create a h5 file from raw data of Event-based dataset.
+
 
 *load_events.py*
                 
